@@ -4,22 +4,22 @@
     "customizations": {
         "codespaces": {
             "repositories": {
-                "Bilingual-Metrics-Analysis-Team/code-switch-resource": {
+                "Bilingual-Metrics-Analyses-Team/code-switch-resource": {
                     "permissions": {
                         "contents": "write"
                     }
                 },
-                "Bilingual-Metrics-Analysis-Team/codeswitch-annotation": {
+                "Bilingual-Metrics-Analyses-Team/codeswitch-annotation": {
                     "permissions": {
                         "contents": "write"
                     }
                 },
-                "Bilingual-Metrics-Analysis-Team/neural-network-language-identification": {
+                "Bilingual-Metrics-Analyses-Team/neural-network-language-identification": {
                     "permissions": {
                         "contents": "write"
                     }
                 },
-                "Bilingual-Metrics-Analysis-Team/Scripts": {
+                "Bilingual-Metrics-Analyses-Team/Scripts": {
                     "permissions": {
                         "contents": "write"
                     }
