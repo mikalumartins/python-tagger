@@ -4,8 +4,25 @@
     "customizations": {
         "codespaces": {
             "repositories": {
-                "Bilingual-Metrics-Analysis-Team/*":{
-                    "permissions": "write-all"
+                "Bilingual-Metrics-Analysis-Team/code-switch-resource": {
+                    "permissions": {
+                        "contents": "write"
+                    }
+                },
+                "Bilingual-Metrics-Analysis-Team/codeswitch-annotation": {
+                    "permissions": {
+                        "contents": "write"
+                    }
+                },
+                "Bilingual-Metrics-Analysis-Team/neural-network-language-identification": {
+                    "permissions": {
+                        "contents": "write"
+                    }
+                },
+                "Bilingual-Metrics-Analysis-Team/Scripts": {
+                    "permissions": {
+                        "contents": "write"
+                    }
                 }
             }
         },
@@ -13,8 +30,10 @@
             "extensions": [
                 "ms-python.python",
                 "ms-toolsai.jupyter",
+                "github.vscode-github-actions",
                 "github.codespaces"
             ]
         }
     },
-"postCreateCommand": "git submodule update --init --recursive && pip install -e ./code-switch-resource && pip install -e ./codeswitch-annotation"}
+    "postCreateCommand": "git submodule update --init --recursive && pip install -e ./code-switch-resource && pip install -e ./codeswitch-annotation"
+}
