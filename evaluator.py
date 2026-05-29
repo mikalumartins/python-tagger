@@ -487,4 +487,14 @@ if __name__ == "__main__":
     main()
 
 
-# I am just adding this comment here to make sure I can update the codespace on github with the changes I make
+
+""""
+Getting this error
+
+Traceback (most recent call last):
+  File "/Users/mikaelaluziamartins/Desktop/PhD/Research Projects/Bilingual Metrics and Sentiment Analysis/CODE/python-tagger/evaluator.py", line 487, in <module>
+    main()
+  File "/Users/mikaelaluziamartins/Desktop/PhD/Research Projects/Bilingual Metrics and Sentiment Analysis/CODE/python-tagger/evaluator.py", line 360, in main
+    gold_standard = open(local_config["gold_path"], mode="r")
+FileNotFoundError: [Errno 2] No such file or directory: 'codeswitch-annotation/KillerCronicas/KillerCronicasGoldStandard'
+"""
