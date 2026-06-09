@@ -487,5 +487,3 @@ if __name__ == "__main__":
     main()
 
 
-
-# No more errors: my results look correct tho. Feel free to check it out, I also updated it in the master branch :)
